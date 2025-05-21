@@ -35,4 +35,4 @@ INSERT INTO Review (review_id, property_id, user_id, rating, comment) VALUES
 -- Messages
 INSERT INTO Message (message_id, sender_id, recipient_id, message_body, sent_at) VALUES
   ('m1', 'u1', 'u2', 'Hi, is the Seaside Cottage available in July?', '2025-05-01 09:00:00'),
-  ('m2', 'u2', 'u1', 'Yes, it's available from the 1st to 5th.', '2025-05-01 10:00:00');
+  ('m2', 'u2', 'u1', "Yes, it's available from the 1st to 5th.", '2025-05-01 10:00:00');
