@@ -7,3 +7,6 @@ CREATE INDEX idx_property_host_id ON Property(host_id);
 CREATE INDEX idx_payment_booking_id ON Payment(booking_id);
 CREATE INDEX idx_review_property_id ON Review(property_id);
 CREATE INDEX idx_review_user_id ON Review(user_id);
+
+
+EXPLAIN ANALYZE SELECT * FROM Booking WHERE property_id = 101;

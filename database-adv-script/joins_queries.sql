@@ -8,7 +8,8 @@ SELECT
     User.first_name,    
     User.email 
 FROM Booking 
-INNER JOIN User ON Booking.user_id = User.user_id;
+INNER JOIN User ON Booking.user_id = User.user_id
+ORDER BY Booking.booking_id;
 
 -- Write a query using aLEFT JOIN to retrieve all properties and their reviews, including properties that have no reviews.
 select 
